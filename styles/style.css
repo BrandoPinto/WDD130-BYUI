@@ -1,7 +1,10 @@
 #content{
-    max-width : 100%;
+    max-width : 1600px;
     margin: auto 0;
     text-align: center;   
+}
+header{
+    text-align: start;
 }
 #background{
     background-color: #d9c2a3;
@@ -16,6 +19,9 @@ nav a:hover {
     background-color: black;
     color: #d9c2a3;
 } 
+#hero-box img{
+    max-width: 1600px;
+}
    
 #background {
     height: 725px;
@@ -26,14 +32,17 @@ nav a:hover {
 nav a {
     text-align: center;
     color: #fcfbfb;
-    text-decoration: none;
 }
 footer, .msg{
     background-color: aquamarine;
 }
 footer p {
+    text-align: start;
     font-size: 1.2em;
 }  
+ a{
+    text-decoration: none;
+}
 footer p a:hover {
     text-decoration: underline;
 }   
