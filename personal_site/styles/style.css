@@ -41,9 +41,8 @@ nav a:hover {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     text-align: center;
-    box-sizing: border-box;  
 }
 .title-home {
     text-align: center;
@@ -55,7 +54,6 @@ nav a:hover {
     background: rgb(73, 125, 202);;
     margin: 30px;
     word-wrap: break-word;
-    vertical-align: middle;
 }
 .home-grid .tip h3  {
     font-size: 16px;
@@ -66,7 +64,7 @@ nav a:hover {
     padding: 10px;
 }
 .home-grid .tip img {
-    width: 100%;
+    width: 50%;
     height: 50%;
 }
 body {
@@ -168,7 +166,7 @@ footer .social img {
 }
 .faq-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   text-align: center;
   box-sizing: border-box; 
   align-items: center;
@@ -182,7 +180,7 @@ footer .social img {
 }
 .question{
   display: grid;
-  background: rgb(73, 125, 202);;
+  background: rgb(73, 125, 202);
   margin: 30px;
   vertical-align: middle;
   width: 50%;
@@ -232,8 +230,13 @@ footer .social img {
 }
 
 .title-aboutus {
+  display: grid;
 text-align: center;
 font-family: Kalam;
+}
+.princial-about{
+  display: flex;
+
 }
 .aboutus-picture {
 width: 25%;
@@ -257,7 +260,7 @@ margin-top: 70px;
 background: rgb(73, 125, 202);;
 margin: 30px;
 vertical-align: middle;
-width: 70%;
+width: 50%;
 }
 .aboutus-grid .information h3  {
 font-size: 16px;
