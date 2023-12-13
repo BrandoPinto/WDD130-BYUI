@@ -53,7 +53,7 @@ nav a:hover {
     margin-top: 70px;
 }
 .tip{
-    background: #e3e290;
+    background: #6a6b6d;
     margin: 30px;
     word-wrap: break-word;
 }
@@ -216,7 +216,7 @@ footer .social img {
 }
 .question{
   display: grid;
-  background: #e3e290;
+  background: #d2d2d2;
   margin: 30px;
   vertical-align: middle;
   width: 50%;
